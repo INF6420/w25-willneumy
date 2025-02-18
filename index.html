@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Neumaier - Catalogue</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="top">
@@ -19,26 +20,31 @@
         </nav>
     </header>
     <main>
-        <div><img src="images/DSC01295 copy.JPG" alt="Street lamp seen from below with a building in the background and snow falling"></div>
-        <div>
-          <h1>Recent Updates</h1> 
-          <p>Here are recent projects and information databases that I have been working on!</p>
-          <a href="">Learn More</a>
-        </div>
+        <div><img id="cover-image" src="images/DSC01295 copy.JPG" alt="Street lamp seen from below with a building in the background and snow falling"></div>
+        <div id="recent-updates">
+            <h2>Recent Updates</h2>
+            <ul>
+                <li><a href="update1.html">Update 1</a></li>
+                <li><a href="update2.html">Update 2</a></li>
+                <li><a href="update3.html">Update 3</a></li>
+            </ul>
+        </div>        
     </main>
     <footer>
         <div>
-            <h3>Copyright 2025</h3>
+            <h3> © 2025</h3>
         </div>
-        <div>
-            <a href="contact.html">
-                <button>Contact Me</button>
-            </a>
-        </div>
-        <div>
-           <a href="#top">
-            <button>Back to Top</button>
-           </a> 
+        <div id="buttons">
+            <div class="contact-button">
+                <a href="contact.html">
+                    <button>Contact Me</button>
+                </a>
+            </div>
+            <div>
+                <a href="#top">
+                    <button>Back to Top</button>
+                </a> 
+            </div>
         </div>
     </footer>
 </body>
