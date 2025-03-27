@@ -20,6 +20,19 @@
         </nav>
     </header>
     <main>
+        <form action="https://formspree.io/f/manedynr" method="post" class="validate">
+            <label for="name">Your Name</label>
+            <input name="name" id="name" type="text" class="form-input">
+            
+            <label for="email">Your Email</label>
+            <input name="email" id="email" type="email" class="form-input" required>
+            
+            <label for="message">Your Message</label>
+            <textarea name="message" class="form-input" required></textarea>
+            
+            <button type="submit">Submit</button>
+          </form>
+          
     </main>
     <footer>
         <div>
@@ -38,5 +51,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
