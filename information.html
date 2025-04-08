@@ -3,37 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Neumaier - Catalogue</title>
+    <meta name="description" content="Explore the portfolio of William Neumaier, showcasing his artwork, design projects, and contact information. Learn more about his work.">
+    <title>William Neumaier - Catalogue of Projects and Artwork</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="top">
-        <nav>
-            <img src= "images/download.png" alt= "William Neumaier Logo">
+    <header id="top" role="banner">
+        <nav aria-label="Main navigation">
+            <img src="images/download.png" alt="William Neumaier Logo, Artist and Designer" role="img">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="information.html">Information</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" role="link">Home</a></li>
+                <li><a href="about.html" role="link">About</a></li>
+                <li><a href="projects.html" role="link">Projects</a></li>
+                <li><a href="information.html" role="link">Information</a></li>
+                <li><a href="contact.html" role="link">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+
+    <main role="main">
+        <h1>Welcome to Will's Information Resource Center</h1>
     </main>
-    <footer>
+
+    <footer role="contentinfo">
         <div>
-            <h3> © 2025</h3>
+            <h3>© 2025 William Neumaier</h3>
+            <p>Design and Artwork Portfolio</p>
         </div>
-        <div id="buttons">
+        <div id="buttons" role="complementary">
             <div class="contact-button">
-                <a href="contact.html">
-                    <button>Contact Me</button>
+                <a href="contact.html" role="link">
+                    <button type="button" aria-label="Contact William Neumaier">Contact Me</button>
                 </a>
             </div>
             <div>
-                <a href="#top">
-                    <button>Back to Top</button>
+                <a href="#top" role="link" aria-label="Back to top of the page">
+                    <button type="button">Back to Top</button>
                 </a> 
             </div>
         </div>
